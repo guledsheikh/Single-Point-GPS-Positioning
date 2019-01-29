@@ -135,7 +135,7 @@ vector<double> SPP::Initialize_Rec_pos(SatellitePosition& object)
 //This function opens the observation and navigation files
 void SPP::OpenEnvFile()
 {
-	Env_File = fopen("EnvFileRK.txt", "rt");
+	Env_File = fopen("EnvFileSPP.txt", "rt");
 	if (Env_File == NULL) perror("Error opening file");
 	char line[MAX_STRLEN];
 
