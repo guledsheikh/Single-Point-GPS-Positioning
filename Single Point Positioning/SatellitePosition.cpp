@@ -1,7 +1,7 @@
 //***********************************************************************************
 //Filename: SatellitePosition.cpp
 //
-//Date					  Author					Revison History
+//Date				  Author				Revison History
 //05/08/2017			  Guled Sheikh				version 1
 //
 //***********************************************************************************
