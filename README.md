@@ -21,7 +21,7 @@ Steps...
   3. Import Eigen library......copy the path where your Eigen library is, then go to project properties > linker > Input > Additional             Dependencies. Add the lib files here and then click apply.
   4. After all this build your project then run.
 
-# Examples
+# Sample Results
 
 coming soon.........
 
