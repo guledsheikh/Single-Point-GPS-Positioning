@@ -98,7 +98,6 @@ public:
 	double scientificTodouble(string str);  //Function for converting scientific string notation to double
 	void rinexOBSReader(Header &head, RECORDS &obs_RECORDS, int &SENTINEL);
 	void rinexNAVReader(vector<NAVRECORDS>& nav_RECORDS);
-	void IMUReader(IMU_RECORDS &imu_obs, int &IMUSENTINEL);
 };
 
 #endif
