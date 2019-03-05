@@ -18,8 +18,9 @@ Steps...
   1. Create a new project or use existing project
   2. Add the single point positioning files to your project
   3. Put the environment file and observation and navigation files in the working directory.
-  3. Import Eigen library......copy the path where your Eigen library is, then go to project properties > linker > Input > Additional             Dependencies. Add the lib files here and then click apply.
-  4. After all this build your project then run.
+  3. Import Eigen library.
+  4. Right click on project in visual studio...then go to Project Properties > C/C++ > General > Additional Include Directories. Browse to      the folder where you saved the Eigen library. Then click apply.
+  5. After all this build your project then run.
 
 # Sample Results
 
