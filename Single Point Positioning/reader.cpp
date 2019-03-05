@@ -240,9 +240,9 @@ void reader::rinexOBSReader(Header &head, RECORDS &obs_RECORDS, int &SENTINEL)
 
 			for (int i = 0; i < Num_Sat; i++)
 			{
-				int curObsType = 1;							// current observation type
-				size_t obsSpace = 14;						// space of an observation in a line
-				std::vector< double > recVec;				// Get a newline
+				int curObsType = 1;		// current observation type
+				size_t obsSpace = 14;		// space of an observation in a line
+				std::vector< double > recVec;	// Get a newline
 
 				fgets(line, MAX_STRLEN, pFile);
 
@@ -251,8 +251,7 @@ void reader::rinexOBSReader(Header &head, RECORDS &obs_RECORDS, int &SENTINEL)
 				if (Nobs <= 5)
 				{
 					for (int j = 0; j < Nobs + 1; j++) {
-						///check this line not complete!!!!!
-						string sline2(line);				// convert the line (char) to string class type sLine
+						string sline2(line);	// convert the line (char) to string class type sLine
 						size_t S_Of_Rec = 0;
 						if (strlen(line) > 1) {
 							string token3 = sline2.substr(S_Of_Rec, 14);
@@ -272,7 +271,7 @@ void reader::rinexOBSReader(Header &head, RECORDS &obs_RECORDS, int &SENTINEL)
 				{
 					for (int k = 0; k < con; k++)
 					{
-						string sline2(line);				// convert the line (char) to string class type sLine
+						string sline2(line);	// convert the line (char) to string class type sLine
 						size_t S_Of_Rec = 0;
 						double count = 0;
 						double strlen_sline2 = sline2.length();
